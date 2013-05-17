@@ -56,10 +56,10 @@
 typedef float T;
 
 //! numerical definition of zero.
-const T zeroTol = (T) 0.0000001;
+__device__ const T zeroTol = (T) 0.0000001;
 
 //! numerical definition of a dry cell
-const T dryTol = (T) 100.;
+__device__ const T dryTol = (T) 100.;
 
 /*
  * Visual C++ compiler doesn't allow the definitions above.
